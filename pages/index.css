@@ -1,5 +1,118 @@
 @import url("../vendor/style/normalize.css");
 
+@font-face {
+    font-family: Inter;
+    font-weight: normal;
+    src: url(../vendor/fonts/Inter/InterWeb/Inter-Regular.woff2),
+         url(../vendor/fonts/Inter/InterWeb/Inter-Regular.woff);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url(../vendor/fonts/Inter/InterWeb/Inter-Bold.woff2),
+         url(../vendor/fonts/Inter/InterWeb/Inter-Bold.woff);
+}
+
+* {
+    border: 1px solid red;
+}
+
 .page {
     max-width: 1280px;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Inter", "Arial, sans-serif";
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1184px;
+    max-height: 52px;
+    padding: 28px 48px 56px 48px;
+}
+
+.header__logo {
+    background-image: url(../images/sprint-3-images/header-logo.svg);
+    position: absolute;
+    width: 176px;
+    height: 52px; 
+    top: 28px;
+    left: 48px;
+    z-index: 1;
+}
+
+.header__lang-link {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: normal;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 1s linear;
+    padding: 18px 18px 6px 0;
+}
+
+.header__lang-link:hover {
+    opacity: 0.3;
+    color: #fff;
+}
+
+.header__lang-link:last-child {
+    padding-bottom: 0;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 0;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead__title {
+    max-width: 720px;
+    font-size: 6rem;
+    line-height: 6.25rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.lead__subtitle {
+    max-width: 640px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    margin: 32px 0 64px 0;
+    padding: 0;
+}
+
+.lead__image {
+    max-width: 984px;
+    max-height: 615px;
+}
+
+.lead__caption {
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+    margin: 8px 0 0 0;
+    padding: 0;
 }
