@@ -1,0 +1,5 @@
+@import url("../vendor/style/normalize.css");
+
+.page {
+    max-width: 1280px;
+}
