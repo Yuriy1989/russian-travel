@@ -4,16 +4,16 @@
 
 В данной проектной работе использовалось:
 
-HTML
-CSS
+1. HTML
+2. CSS
 
 Проект разработан для ширины экранов в 320, 768, 1024 и 1280 пикселей. Тексты написаны бесплатным шрифтом ”Inter“ от дизайнеров «Фигмы».
 
-**Ссылка на макет Figma**
-
 [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
+------
 
 **Ссылка на проект**
 
-[Путешествие по России] (https://yuriy1989.github.io/russian-travel/)
+[Путешествие по России](https://yuriy1989.github.io/russian-travel/)
 
