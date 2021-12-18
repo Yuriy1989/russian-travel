@@ -1,0 +1,9 @@
+.header__logo {
+  background-image: url(../../../images/sprint-3-images/header-logo.svg);
+  position: absolute;
+  width: 176px;
+  height: 52px;
+  top: 28px;
+  left: 48px;
+  z-index: 1;
+}

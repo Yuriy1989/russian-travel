@@ -1,0 +1,23 @@
+.header__lang-link {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: normal;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 1s linear;
+  padding: 18px 18px 6px 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.3;
+  color: #fff;
+}
+
+.header__lang-link:last-child {
+  padding-bottom: 0;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
