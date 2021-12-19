@@ -16,6 +16,7 @@
 
 .header__lang-link:last-child {
   padding-bottom: 0;
+  padding-right: 0;
 }
 
 .header__lang-link_active {
