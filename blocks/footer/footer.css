@@ -4,7 +4,11 @@
   justify-content: space-between;
   min-width: 186px;
   max-width: 1184px;
-  margin: 0 auto;
-  margin-top: 92px;
-  margin-bottom: 24px;
+  margin: 92px 48px 24px 48px;
+}
+
+@media screen and (width: 768px) {
+  .footer {
+    margin: 88px 24px 24px 24px;
+  }
 }
