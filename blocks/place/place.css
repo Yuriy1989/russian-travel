@@ -14,21 +14,22 @@
   margin: 0 0 92px 0;
 }
 
-@media screen and (width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 456px;
     gap: 48px 32px;
   }
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
+    white-space: pre-line;
   }
 }
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 320px) {
   .place {
     grid-template-rows: 320px;
     gap: 32px;

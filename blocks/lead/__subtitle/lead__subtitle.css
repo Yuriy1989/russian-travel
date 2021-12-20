@@ -14,3 +14,9 @@
     margin-bottom: 56px;
   }
 }
+
+@media screen and (width: 768px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}

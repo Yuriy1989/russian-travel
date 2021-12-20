@@ -5,3 +5,10 @@
   color: #fff;
   margin: 0;
 }
+
+@media screen and (max-width: 768px){
+  .place__title {
+    font-size: 2.625rem;
+    line-height: 2.875rem;
+  }
+}

@@ -7,3 +7,9 @@
   left: 48px;
   z-index: 1;
 }
+
+@media screen and (width: 768px) {
+  .header__logo {
+    left: 24px;
+  }
+}
