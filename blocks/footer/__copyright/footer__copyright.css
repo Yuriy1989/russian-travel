@@ -9,7 +9,7 @@
   content: "\00A9";
 }
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 0.875rem;
   }

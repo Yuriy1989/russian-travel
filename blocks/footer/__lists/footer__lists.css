@@ -10,7 +10,7 @@
   margin: 0;
 } */
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 320px) {
   .footer__lists {
     flex-direction: column;
   }
