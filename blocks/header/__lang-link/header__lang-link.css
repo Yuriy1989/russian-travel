@@ -22,7 +22,13 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (width: 1024px) {
+  .header__lang-link {
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (width: 320px) {
   .header__lang-link {
     font-size: 1.125rem;
     line-height: 1.25rem;
