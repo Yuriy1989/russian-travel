@@ -5,8 +5,16 @@
   margin: 0 18px 0 0;
   transition: opacity 0.5s linear;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footer__link:hover {
   opacity: 60%;
+}
+
+@media screen and (width: 320px) {
+  .footer__link {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
 }

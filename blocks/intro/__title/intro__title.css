@@ -9,6 +9,7 @@
 @media screen and (max-width: 320px) {
   .intro__title {
     font-size: 2rem;
-    line-height: 2,1875rem;
+    line-height: 2.1875rem;
+    white-space: pre-line;
   }
 }

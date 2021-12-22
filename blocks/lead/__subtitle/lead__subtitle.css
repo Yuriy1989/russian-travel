@@ -9,14 +9,23 @@
   padding: 0;
 }
 
-@media screen and (width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__subtitle {
     margin-bottom: 56px;
   }
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__subtitle {
     margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 16px;
   }
 }

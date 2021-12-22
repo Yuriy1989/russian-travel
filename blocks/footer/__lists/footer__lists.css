@@ -6,7 +6,21 @@
   margin: 0;
 }
 
-.footer__lists > li:last-child > a {
+/* .footer__lists > li:last-child > a {
   margin: 0;
+} */
+
+@media screen and (width: 320px) {
+  .footer__lists {
+    flex-direction: column;
+  }
+
+  .footer__lists > li {
+    margin-bottom: 32px;
+  }
+
+  .footer__lists > li:last-child {
+    margin-bottom: 48px;
+  }
 }
 

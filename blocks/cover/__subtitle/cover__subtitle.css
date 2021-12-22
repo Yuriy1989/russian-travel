@@ -6,3 +6,11 @@
   white-space: pre-line;
   margin: 0;
 }
+
+@media screen and (width: 320px) {
+  .cover__subtitle {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    white-space: normal;
+  }
+}
