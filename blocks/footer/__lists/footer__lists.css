@@ -10,13 +10,5 @@
   .footer__lists {
     flex-direction: column;
   }
-
-  .footer__lists > li {
-    margin-bottom: 32px;
-  }
-
-  .footer__lists > li:last-child {
-    margin-bottom: 48px;
-  }
 }
 

@@ -3,12 +3,15 @@
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__links/header__links.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
 @import url("../blocks/content/content.css");
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__images/lead__images.css");
+@import url("../blocks/lead/__figure/lead__figure.css");
 @import url("../blocks/lead/__image/lead__image.css");
 @import url("../blocks/lead/__caption/lead__caption.css");
 @import url("../blocks/intro/intro.css");
@@ -36,11 +39,10 @@
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__lists/footer__lists.css");
+@import url("../blocks/footer/__list-item/footer__list-item.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 
-
-
-
-/* * {
+/* 
+* {
   border: 1px solid red;
 } */

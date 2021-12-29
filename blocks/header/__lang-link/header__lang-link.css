@@ -6,7 +6,7 @@
   color: #fff;
   text-decoration: none;
   transition: opacity 1s linear;
-  margin: 46px 48px 62px 18px;
+  margin-left: 18px;
 }
 
 .header__lang-link:hover {
@@ -14,30 +14,9 @@
   color: #fff;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 0;
-}
-
-.header__lang-link_active {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 1024px) {
-  .header__lang-link {
-    margin-bottom: 54px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header__lang-link {
-    margin-right: 24px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 1.125rem;
     line-height: 1.25rem;
-    margin: 30px 16px 56px 18px;
   }
 }
