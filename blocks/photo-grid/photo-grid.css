@@ -5,6 +5,7 @@
   justify-items: stretch;
   margin: 0 48px 92px 48px;
   padding: 0;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +23,8 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
+    --width-for-telephone: 100vw - 32px;
+    grid-template-columns: repeat(auto-fit, minmax(var(--width-for-telephone), 1fr));
     margin: 0 16px 64px 16px;
     gap: 12px;
   }

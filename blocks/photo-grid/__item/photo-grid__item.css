@@ -4,3 +4,9 @@
   object-fit: cover;
   box-sizing: content-box;
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    max-width: 100vw;
+  }
+}
